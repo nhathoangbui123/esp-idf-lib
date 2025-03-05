@@ -1,0 +1,20 @@
+name: tca6408a
+description: Driver for TCA6408A low-voltage 8-bit I2C I/O expander
+version: 1.0.0
+groups:
+  - gpio
+code_owners: HoangBui
+depends:
+  - i2cdev
+  - log
+  - esp_idf_lib_helpers
+thread_safe: yes
+targets:
+  - esp32
+  - esp8266
+  - esp32s2
+  - esp32c3
+license: BSD-3
+copyrights:
+  - name: HoangBui
+    year: 2025
